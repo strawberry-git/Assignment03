@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+    width: 100%;
+
+}
+
+/*phần thông tin cá nhân sử dụng Grid Layout để chia màn hình thành hai cột bằng nhau (mỗi cột chiếm 50% màn hình) */
+section>.about {
+    width: 1490px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#nav-bar {
+    text-align: center;
+}
+/* để position: relative cho thẻ img, sau đó các đoạn text sẽ có position: absolute */
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-banner{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .topnav a {
+    /* float: left; */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .in-line{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid gainsboro;
+  }
+
+  .d-block{
+    display: block;
+  }
+
+  .icon {
+    color: #6495ED;
+    padding-right: 5px;
+  }
+
+  .grid-item{
+    padding: 30px 50px;
+  }
+  
+  .info{
+    list-style-type: none;
+    margin-left: -39px;
+  }
+  .section-title{
+    margin-bottom: 25px;
+  }
+
+  .boder{
+    font-weight: bolder;
+  }
+  /* phần Thông tin nghề nghiệp sử dụng Grid Layout và tạo ra 3 cột dọc (mỗi cột chiếm 30% màn hình) */
+  section>.job-info {
+    margin: 25px 200px 25px 200px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 25px;
+}
+
+.job-info-item{
+  /* sử dụng thuộc tính border để thêm viền cho mỗi phần */
+  border: 1px solid gainsboro;
+  text-align: left;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.experience{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 15px;
+}
+
+.item1{
+  padding-left: 25px;
+}
+
+.li-experience{
+  list-style-type: none;
+}
+
+.span{
+  background-color: #318fff; 
+  color: white;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.content{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.h3-bottom{
+  margin-bottom: 10px;
+}
+/* Xây dựng phần Sở thích sử dụng Flex-box để bố cục cho các item*/
+.flex-container{
+  display: flex;
+  margin: 25px;
+}
+
+.flex-container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.flex-container > div > i {
+  font-size: 25px;
+  color:#00BFFF;
+  padding: 10px;
+  /* tạo một đường tròn bao quanh icon bằng thuộc tính border */
+  border: 1px solid #00BFFF;
+  border-radius: 50%;
+}
+
+.span-language{
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 35px;
+}
+
+.span-language2{
+  background-color: #6e6e6e;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 35px;
+}
+
+.certificate{
+   margin: 15px;
+   padding: 30px 180px 30px 180px;
+}
+/* chia mỗi hàng thành 2 cột, mỗi cột sẽ là thông tin của một chứng chỉ hoặc giải thưởng */
+.certificate-info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+/* bổ sung thêm border để phân biệt giữa mỗi item trong layout */
+.certificate-item{
+  border-right: 1px solid #d6c08d;
+}
+
+.certificate-content{
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.certificate-2{
+  padding-left: 15px;
+  border-right: none;
+}
+
+.project{
+  padding: 30px 180px 30px 180px;
+}
+/* chia màn hình thành 3 cột bằng nhau. Mỗi cột sẽ là thông tin về một dự án */
+.project-info{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  color: #6e6e6e;
+  column-gap: 25px;
+}
+
+.project-name{
+  padding:10px 0 10px 10px ;
+  border: 1px solid #DCDCDC;
+}
+
+.project-time{
+  padding:10px 0 10px 10px ;
+  border: 1px solid #DCDCDC;
+}
+
+.span-time{
+  background-color: blue;
+  color: white;
+  border-radius: 30%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.project-inline{
+  display: inline-block;
+  margin: 10px;
+}
+
+tr{
+  border-top: 1px solid #DCDCDC;
+}
+
+.title{
+  width: 100px;
+  padding: 10px;
+}
+
+.project-item{
+  border: 1px solid #DCDCDC;
+}
+/*phần Liên hệ sử dụng thuộc tính display: inline-block để dàn ngang các phần tử */
+.contact{
+  display: inline-block;
+  padding: 25px 25px 25px 25px;
+}
+
+.link{
+  text-decoration: none;
+}
+/* Hình ảnh cá nhân được bo tròn và có border trắng xung quanh. */
+.img-profile{
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  left: 680px;
+  border: 10px solid white;
+  top: 250px;
+}
+
+.a-img{
+  border-radius: 50%;
+  border: none;
+  width: 200px;
+}

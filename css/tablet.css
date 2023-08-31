@@ -1,0 +1,100 @@
+/*Responsive cho màn hình tablet*/
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    img.img-profile{
+        display: none;
+    }
+
+    div.about{
+        max-width: 1010px;
+    }
+
+    div.a-img{
+        width: 100px;
+    }
+
+    div.job-info{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 25px;
+    }
+
+    div.community{
+        margin-top: 20px;
+    }
+
+    div.project-info{
+        font-size: 12px;
+    }
+
+    div.developer{
+        text-align: center;
+        width: 100%;
+    }
+
+    div.projectcharter{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    div.projectcharter1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    div.projectcharter4{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    div.projectcharter2{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    div.projectcharter3{
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    div.iconn{
+        text-align: center;
+        width: 100%;
+    }
+
+    div.goalnumber{
+        display: block;
+        padding-left: 30px;
+    }
+
+    div.membername{
+        padding-left: 30px;
+
+    }
+
+    div.scopegird{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    .ptitle{
+        font-size: 25px;
+    }
+
+    .primarygird{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0 0 10px ;
+    }
+
+    .icon01{
+        margin-left: 30px;
+    }
+
+    .hrtimeline{
+        text-align: center;
+        margin: 10px;
+    }
+}

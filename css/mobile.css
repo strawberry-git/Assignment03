@@ -1,0 +1,143 @@
+/* Responsive cho màn hình mobile */
+@media screen and (max-width: 414px) {
+    div.img-banner {
+        height: 150px;
+    }
+
+    div.centered h1{
+        font-size: 15px;
+    }
+
+    a.in-line{
+        display: block;
+        text-align: left;
+        border: none;
+        font-size: 15px;
+    }
+
+    a.a-img{
+        padding: 0;
+    }
+
+    div.about{
+        width: auto;
+        display: block;
+    }
+
+    div.job-info{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 25px;
+        row-gap: 25px;
+    }
+
+    section.certificate{
+        padding: 15px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    div.certificate-info{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 15px;
+    }
+
+    div.certificate-item{
+        border-right: none;
+        border-bottom: 1px solid #d6c08d;
+    }
+
+    div.certificate-2{
+        padding-left: 0px;
+        border-bottom: none;
+    }
+
+    div.certificate-content{
+        padding-right: 0px;
+    }
+
+    section.project{
+        padding: 15px;
+    }
+
+    div.project-info{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 15px;
+    }
+
+    li.contact{
+        padding: 15px;
+    }
+
+    ul.ul-footer{
+        margin-left: -35px;
+    }
+
+    img.img-profile{
+        display: none;
+    }
+
+    div.projectcharter{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    div.projectcharter1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    div.projectcharter4{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    div.projectcharter2{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    div.projectcharter3{
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    div.goalnumber{
+        display: block;
+        padding-left: 10px;
+    }
+
+    div.membername{
+        padding-left: 10px;
+
+    }
+
+    div.iconn{
+        text-align: center;
+        width: 100%;
+    }
+
+    div.scopegird{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    .ptitle{
+        font-size: 25px;
+    }
+
+    .primarygird{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .hrtimeline{
+        text-align: center;
+        margin: 10px;
+    }
+}
